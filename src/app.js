@@ -7,7 +7,7 @@ const request = require('postman-request')
 const geoRequest = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-
+const port = process.env.PORT || 3000
 
 //Define paths for express config
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -80,6 +80,6 @@ app.get('*', (req,res) => {
     res.render('error' )
 })
 
-app.listen(3000, () => {
-    console.log(chalk.green.inverse('Port is open on 3000'));
+app.listen(port, () => {
+    console.log(chalk.green.inverse(`Port is open on ${port}`));
 })

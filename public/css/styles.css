@@ -1,0 +1,14 @@
+body {
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/background/78-784450_weather-wallpaper-hd.jpg);
+    background-size: cover;
+    background-position: center; 
+    
+}
+.container {
+    height:80vh;
+}
+
+.card {
+    background:rgba(128, 128, 128, 0.15);
+}

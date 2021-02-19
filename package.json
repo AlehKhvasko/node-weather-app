@@ -1,0 +1,22 @@
+{
+  "name": "weather-server-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "fontawesome": "^5.6.3",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.7",
+    "postman-request": "^2.88.1-postman.28",
+    "request": "^2.88.2"
+  }
+}
